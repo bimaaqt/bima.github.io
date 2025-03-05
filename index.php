@@ -17,14 +17,14 @@ $youtube = "http://youtube/bimaasky ";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website Bima</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/image/telkom.png" type="" />
+    <link rel="icon" href="./image/telkom.png" type="" />
 </head>
 
 <body>
     <section id="container">
         <div class="content">
             <div class="profil">
-                <img src="/image/foto.png" alt="" />
+                <img src="./image/foto.png" alt="" />
                 <h1>Profil Mahasiswa</h1>
                 <table>
                     <tr>
