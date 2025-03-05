@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("image/background.png");
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.8vh;
+}
+/* .profile {
+  width: 20%;
+} */
+
+#container {
+  margin: 6vw;
+  width: 30%;
+  height: auto;
+  padding: 2vw;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.content .profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .profil img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  margin-bottom: 6px;
+}
+
+.content .sosmed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .sosmed a {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .sosmed img {
+  width: 30%;
+  height: 30%;
+  margin: 2vw;
+  transition: ease 0.2s;
+}
+.content .sosmed img:hover {
+  transform: scale(1.4);
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
